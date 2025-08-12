@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Questrial", sans-serif;
+}
+.section-padding{
+    padding: 50px ;
+    margin-bottom: 30px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.p-2{
+    padding: 20px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 0;
+}
+.align-center{
+    align-items: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.title{
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.text-field{
+    width: 40%;
+}
+.img-fluid{
+    width: 60%
+}
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    margin: auto;
+    border: none;
+    &:hover{
+        background-color: darkseagreen;
+        color: black;
+    }
+
+}
+.btn-2{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 50px;
+    &:hover{
+        background-color: darkseagreen;
+        color: white;
+    }
+
+
+}
+.radius-4x{
+    border-radius: 10px;
+
+}
+.my-1{
+    padding: 10px;
+}
+.my-2{
+    padding: 20px 0;
+}
+.my-3{
+    padding: 5px;
+}
+.my-4{
+    padding: 40px;
+}
+.clients-say{
+    .title{
+        color: green;
+
+        p{
+            font-size: 20px;
+            text-align: justify;
+            line-height: 1.6;
+            margin-top: 20px;
+
+        }
+    }
+}
+.container-md{
+    max-width: 800px;
+    margin: auto;
+}
+.container-lg{
+    max-width: 1000px;
+    margin:auto;
+}
+.container-sm{
+    max-width: 600px;
+    margin: auto;
+}
+.say-card{
+    width: 50%;
+    padding:40px 20px;
+    background-color: rgba(249, 249, 248, 0.81);
+    border-radius: 20px;
+    border: 1px solid lightslategrey;
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        outline:1px solid green;
+        object-fit: contain;
+    }
+    p{
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.6;
+    }
+}
+.card{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.text-title{
+    font-family: italic;
+}
+.title-lg{
+    font-size: 20px;
+    color: green;
+}
+.box{
+    width: 60%;
+}
+
+.contact{
+    .fa{
+        font-size: 25px;
+        font-weight: bold;
+        color:green;
+
+    }
+}
+.bg-secondary{
+    color: black;
+    background-color:darkgrey;
+}
+.text-fa{
+    color:black;
+    font-size: 20px;
+}
+.input-field {
+    width: 60%;
+    padding: 10px;
+
+}
+
+
+
+
+
